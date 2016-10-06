@@ -3,8 +3,7 @@
 # Write a function `AddThree` that adds 3 to an input value
 
 AddThree <- function(value) {
-  answer <- value + 3
-  return (answer)
+  return (value + 3)
 }
 
 # Create a variable `ten` by passing 7 to your `AddThree` function
@@ -15,8 +14,7 @@ ten <- AddThree(7)
 # Write a function `FeetToMeters` that converts from feet to meters
 
 FeetToMeters <- function(feet) {
-  answer <- feet / 3.28
-  return (answer)
+  return (feet / 3.28)
 }
 
 
